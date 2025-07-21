@@ -1,0 +1,9 @@
+[project]
+name = "cadomatic"
+version = "0.1.0"
+description = "This is a code to create editable CAD files from natural language prompts"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "python-dotenv"
+]
