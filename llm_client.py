@@ -1,6 +1,8 @@
 # llm_client.py
 import os
 import google.generativeai as genai
+from dotenv import load_dotenv
+load_dotenv()
 
 # Configure API key from environment variable
 genai.configure(api_key=os.environ.get("GEMINI_API_KEY"))
