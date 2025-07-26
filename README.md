@@ -44,3 +44,35 @@ Future versions under development will include:
 - A **dedicated user interface** for part selection and parameter tuning
 - More robust **template and geometry libraries**
 ---
+## 🚀 How to Use CADomatic
+
+### ✅ Prerequisites
+- Python 3.11+
+- [FreeCAD](https://www.freecad.org/downloads.php) (must be installed and added to PATH)
+- [uv](https://github.com/astral-sh/uv) (install via `pip install uv`)
+
+### ⚙️ Setup
+```bash
+git clone https://github.com/yas1nsyed/CADomatic.git
+cd CADomatic
+
+# Create and activate virtual environment
+python -m venv .venv
+.venv\Scripts\activate  
+
+# Install dependencies
+uv pip install -r requirements.txt
+```
+
+- 🔐 [Set Up Gemini API Key](https://aistudio.google.com/app/apikey)
+- Create a .env file in the project root:
+
+- ▶️ Run CADomatic
+```bash
+# Run the program
+uv run main.py
+```
+- Enter your prompt (e.g., "Create a 10mm cube with 2mm hole").
+- FreeCAD will auto-launch with your generated model.
+
+---

@@ -8,6 +8,7 @@ RUN_SCRIPT = Path("run_freecad.py")
 
 # The GUI code snippet to append
 GUI_SNIPPET = """
+import FreeCADGui
 FreeCADGui.activeDocument().activeView().viewAxometric()
 FreeCADGui.SendMsgToActiveView("ViewFit")
 """

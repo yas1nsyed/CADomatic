@@ -1,0 +1,13 @@
+# Core AI/Cloud Dependencies
+google-generativeai>=0.8.5  # Gemini 2.5 Flash
+google-ai-generativelanguage>=0.6.15
+google-api-python-client>=2.176.0
+google-auth>=2.40.3
+google-auth-httplib2>=0.2.0
+protobuf>=5.29.5
+grpcio>=1.73.1  
+
+# Support Packages
+python-dotenv>=1.1.1  # For .env configuration
+requests>=2.32.4  # HTTP requests
+pydantic>=2.11.7  # Data validation
