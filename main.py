@@ -1,10 +1,10 @@
-from llm_client import prompt_llm
+from src.llm_client import prompt_llm
 from pathlib import Path
 import subprocess
 
 PROMPT_FILE = Path("prompts/base_instruction.txt")
 GEN_SCRIPT = Path("generated/result_script.py")
-RUN_SCRIPT = Path("run_freecad.py")
+RUN_SCRIPT = Path("src/run_freecad.py")
 
 # The GUI code snippet to append
 GUI_SNIPPET = """
