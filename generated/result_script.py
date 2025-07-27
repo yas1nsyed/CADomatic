@@ -1,14 +1,13 @@
-import FreeCAD
 import Part
 
-# Create a cube with side length 10mm
-cube = Part.makeBox(10.0, 10.0, 10.0)
+# Define the size of the cube
+size = 10.0
 
-# Add the cube to the document
+# Create a cube (box) with the specified size
+cube = Part.makeBox(size, size, size)
+
+# Show the cube in the FreeCAD viewer
 Part.show(cube)
-
-# Refresh the FreeCAD view
-FreeCAD.ActiveDocument.recompute()
 
 
 import FreeCADGui
