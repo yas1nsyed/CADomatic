@@ -2,7 +2,7 @@
 import subprocess
 from pathlib import Path
 
-freecad_exe = r"F:\FreeCAD_1.0.1-conda-Windows-x86_64-py311\FreeCAD_1.0.1-conda-Windows-x86_64-py311\bin\freecad.exe"
+freecad_exe = r"C:\Program Files\FreeCAD 1.0\bin\freecad.exe"
 script_path = Path("generated/result_script.py")
 
 if not script_path.exists():
